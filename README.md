@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+```markdown
+# 🏋️‍♀️ Fitness Goal Tracker 🥗
 
-## Getting Started
+Bienvenue dans **Fitness Goal Tracker**, une application web intuitive qui vous aide à **définir**, **suivre** et **atteindre** vos objectifs de fitness, que ce soit   marcher 🥾, s'entraîner 💪 ou boire de l'eau 💧. Parfaitement adaptée aux débutants en React, cette app met en pratique les bases des frameworks frontend modernes avec un stockage **100% local**.
 
-First, run the development server:
+Ce projet est une application web développée avec [**Next.js**](https://nextjs.org), initialisée via [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). Il vous aide à suivre vos objectifs de fitness 🏃, enregistrer vos progrès quotidiens 📊 et rester motivé(e) jour après jour !
+
+## ⚙️ Lancer le Projet en Local
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
+# ou
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ensuite, ouvrez votre navigateur à l’adresse 👉 [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🧩 Fonctionnalités
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Fonctionnalité 📌                     | Description 📋                                                                 |
+|--------------------------------------|--------------------------------------------------------------------------------|
+| ✅ **Gestion des Objectifs**         | Créer, Lire, Mettre à jour et Supprimer vos objectifs de fitness              |
+| 📅 **Saisie des Progrès Quotidiens** | Un formulaire simple pour enregistrer votre progression chaque jour           |
+| 📋 **Liste des Objectifs**           | Une vue claire de tous vos objectifs avec indicateur visuel de progression    |
+| 📊 **Résumé des Performances**       | Statistiques hebdomadaires et moyennes de progression                         |
+| 💾 **Stockage Local**                | Toutes les données sont sauvegardées dans le navigateur, même après fermeture |
 
-## Learn More
+## ✍️ Structure du Projet
 
-To learn more about Next.js, take a look at the following resources:
+- `app/page.js` – Page d’accueil de votre application.
+- `components/` – Vos composants React réutilisables.
+- `styles/` – Fichiers CSS ou modules CSS.
+- `utils/` – Fonctions utilitaires (ex: LocalStorage).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+L'application utilise [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) pour charger [**Geist**](https://vercel.com/font), une police moderne conçue par Vercel.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Technologies Utilisées
 
-## Deploy on Vercel
+| Outil / Librairie | Rôle                               |
+|-------------------|------------------------------------|
+| React             | Framework principal de l’application |
+| JavaScript (ES6+) | Logique & Interactivité             |
+| HTML / CSS        | Structure & Design                  |
+| LocalStorage      | Persistance des données             |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🧠 Pour les Étudiants
+
+Ce projet a été conçu comme un **exercice pratique** pour :
+- Apprendre les bases de React (useState, useEffect, composants)
+- Comprendre la gestion de données sans backend
+- Créer une expérience utilisateur fluide et minimaliste
+
+## 🚀 Déploiement avec Vercel
+
+Déployez facilement sur [**Vercel**](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) :
+
+| Plateforme 🌐    | Statut ✅         |
+|------------------|------------------|
+| Vercel           | ✔️ Recommandée   |
+| Netlify          | ✔️ Compatible    |
+| GitHub Pages     | ⚠️ Non recommandé pour Next.js (préférez un framework statique) |
+
+📄 Docs déploiement : [Next.js Deployment](https://nextjs.org/docs/app/building-your-application/deploying)
+
+## 📚 Ressources Next.js
+
+- [Documentation Next.js](https://nextjs.org/docs)
+- [Learn Next.js](https://nextjs.org/learn)
+- [GitHub Next.js](https://github.com/vercel/next.js)
+
+## 📦 À Venir (Idées d'Améliorations)
+
+- 🔔 Notifications pour objectifs non remplis
+- 📱 Version mobile optimisée
+- 📈 Graphiques de progression hebdomadaire (Chart.js / Recharts)
+- ☁️ Intégration Firebase pour sauvegarde cloud
+
+```
