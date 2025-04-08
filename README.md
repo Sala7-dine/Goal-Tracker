@@ -1,4 +1,3 @@
-```markdown
 # 🏋️‍♀️ Fitness Goal Tracker 🥗
 
 Bienvenue dans **Fitness Goal Tracker**, une application web intuitive qui vous aide à **définir**, **suivre** et **atteindre** vos objectifs de fitness, que ce soit   marcher 🥾, s'entraîner 💪 ou boire de l'eau 💧. Parfaitement adaptée aux débutants en React, cette app met en pratique les bases des frameworks frontend modernes avec un stockage **100% local**.
