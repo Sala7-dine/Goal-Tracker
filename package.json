@@ -4,9 +4,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "start": "next start",
     "dev": "next dev",
     "build": "next build && next export",
-    "start": "next start",
     "predeploy": "npm run build",
     "deploy": "npm run build && gh-pages -d out",
     "lint": "next lint"
