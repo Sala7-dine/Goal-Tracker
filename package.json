@@ -5,10 +5,10 @@
   "private": true,
   "scripts": {
     "start": "next start",
-    "dev": "next dev",
-    "build": "next build && next export",
     "predeploy": "npm run build",
-    "deploy": "npm run build && gh-pages -d out",
+    "deploy": "gh-pages -d build",
+    "build": "next build",
+    "dev": "next dev",
     "lint": "next lint"
   },
   "dependencies": {
